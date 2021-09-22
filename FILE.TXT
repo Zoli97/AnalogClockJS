@@ -1,0 +1,39 @@
+avem un cerc iar distanta o vom masura in grade (360) vom imparti 360 la 12 = 30, asta inseamna fiecare numar
+este intr un unghi de 30*. 
+12 va fi la o distanta fixa 
+
+Determinarea rotatiei
+1hr = 30 de grade 
+1min = 6grade
+1second = 6grade
+voi inmulti cu 30 pentru a roti in functie de ora specificata
+
+
+
+
+
+
+//POSITION 
+
+.parent {
+    background: lightgreen;
+    height: 75vh;
+    width: 75vw;
+    padding: 1em;
+    position: relative;
+}
+
+
+/*away*/
+
+
+/*default is relative, this top is zero px away relative to the body(zero pixels away from the top of the body)*/
+
+.child {
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15%;
+    right: 15%;
+}
